@@ -1,0 +1,209 @@
+style>
+body 
+{
+  font-family:'Roboto', sans-serif;
+}
+/*to maintain page layout used page container and wrap*/
+#page-container
+ {
+  position:relative;
+  height:74vh;
+ }
+#page-wrap
+ {
+  padding-bottom:2em;
+ }
+/*top right elements*/
+.top-nav ul 
+{
+  list-style-type: none;
+  float:right; /*to avoid mirroring of list elements*/
+}
+.top-nav li 
+{
+  line-height:25px;
+  float: left;
+  text-align: center;
+  padding: 15px 10px ;
+}
+.top-nav li a 
+{
+  color: black;
+  text-decoration: none;/*to make the links black and un-underline them*/
+ }
+.top-nav a:hover
+{
+  text-decoration:underline;/*on mouse hovering links go underlined*/
+}
+#apps 
+{
+  width:25px;
+  height:25px;/*adjusting the image size placing it properly in the list*/
+  padding-bottom:15px;
+}
+#sign-in
+{/* button dimensions*/
+  color:white;
+  border:0px;
+  background-color:#4887ef;
+  padding: 10px 8px 10px 8px;
+} 
+#google-logo 
+{         /*google logo center aligned*/
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  clear: both;
+  padding-top: 112px;
+  padding-bottom: 20px;
+}
+.form 
+{        /*making search window center aligned*/
+  text-align:center;
+}
+#form-search 
+{       /*dimensions of search window*/
+  width: 450px;
+  line-height: 38px;
+  border-radius:25px;
+  border: 1px solid #d6d6d6;
+  padding-left: 15px;  
+  box-shadow: 1px 1px #ededed;
+}
+ #form-search:hover
+   {    /*on mouse hovering shadow property*/
+     box-shadow:0px 10px 5px #ededed;
+   }
+.buttonsearch 
+  {      /*search and i'm feeling lucky button size and color definition*/
+  background-color: #EFEFEF;
+  border: none;
+  color: #6b6b6b;
+  padding:12px 8px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  }
+   a.buttonsearch:hover
+    {    /*i couldn't find a way to button hovering so instead of buttons used links*/
+    color: #000;
+    border: 1px solid;
+    }
+
+.buttons 
+ {      /*aligning the buttons*/
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+ }
+.lang
+{      /*google language options*/
+  color:black;
+  text-decoration:none;
+  text-align:center;
+}
+  .lang a:link
+    {
+     text-decoration:none;
+    }
+     .lang a:hover
+      {
+       text-decoration:underline;
+      }
+.footer
+  {      /*to make footer always at the bottom of page*/
+  position: absolute;
+  bottom:0;
+  width: 100%;
+  height:2em;
+  }  
+#privacy
+{      /*privacy icon and plain text*/
+  font-size:25px;
+  padding-top:15px;
+  padding-bottom:15px;
+  padding-left:15px;
+}
+.bottom-right
+ {       /*remind me and review now arrang in the page */
+   float:right;
+   margin:0;
+   position:absolute;
+   top:65px;
+   right:30px;
+  }
+   .bottom-right a
+    {
+      text-decoration:none;
+      color:blue;
+      }
+        .bottom-right a:hover
+          {
+            padding:10px 5px 10px 5px;
+            background-color:#ededed;
+          }
+#review
+{ 
+  border:0px;
+  background-color:#4887ef;
+  margin:15px;
+  padding:10px;
+  border-radius:8px;
+  color:white;
+}
+.bottom-nav-left
+  {          /* bottom links arranged in two different classes to left and right alinging*/
+    float:left;
+  }
+  .bottom-nav-left ul 
+    {
+      list-style-type:none;
+      margin:0;
+      padding:0;
+    }
+      .bottom-nav-left li 
+        {
+          float: left;
+          display: block;
+          padding: 10px;
+  
+        }
+          .bottom-nav-left li a 
+            {
+              color: black;
+              text-align: center;
+              text-decoration: none;
+            }
+              .bottom-nav-left a:hover
+                {
+                  text-decoration:underline;
+                }
+ .bottom-nav-right
+   {
+    float:right;
+   } 
+     .bottom-nav-right ul 
+       {
+         list-style-type: none;
+         margin: 0;
+         padding: 0;
+         float:right;
+      }
+        .bottom-nav-right li 
+          {
+            float: left;
+            display: block; 
+            padding: 10px;
+          }
+            .bottom-nav-right li a
+              {
+               color: black;
+               text-align: center;
+               text-decoration: none;
+              }
+               .bottom-nav-right a:hover
+                 {
+                   text-decoration:underline;
+                 }
+</style>
